@@ -1,31 +1,43 @@
 {
-	"expo": {
-		"name": "Aora",
-		"scheme": "aora",
-		"slug": "aora",
-		"version": "1.0.0",
-		"orientation": "portrait",
-		"icon": "./assets/images/logo-small.png",
-		"userInterfaceStyle": "light",
-		"splash": {
-			"image": "./assets/images/logo-small.png",
-			"resizeMode": "contain",
-			"backgroundColor": "#ffffff"
-		},
-		"assetBundlePatterns": ["**/*"],
-		"ios": {
-			"supportsTablet": true
-		},
-		"android": {
-			"adaptiveIcon": {
-				"foregroundImage": "./assets/adaptive-icon.png",
-				"backgroundColor": "#ffffff"
-			},
-			"package": "com.ineatz.aora"
-		},
-		"web": {
-			"favicon": "./assets/favicon.png"
-		},
-		"plugins": ["expo-router"]
-	}
+  "expo": {
+    "name": "Aora",
+    "scheme": "aora",
+    "slug": "aora",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/logo-small.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/images/logo-small.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.ineatz.aora"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      "expo-router"
+    ],
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "4dccf4dd-c1dd-46f4-8e74-cab0589a72cc"
+      }
+    }
+  }
 }
